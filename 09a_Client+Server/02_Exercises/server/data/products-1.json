@@ -1,0 +1,11 @@
+[
+  {"name": "Nagellack rosa", "price": 1.50},
+  {"name": "Nagellack violett", "price": 1.50},
+  {"name": "Nagellack türkis", "price": 1.50},
+  {"name": "Nagellack grün", "price": 1.50},
+  {"name": "Nagellack Topcoat", "price": 3.00},
+  {"name": "Nagellack Basecoat", "price": 3.50 },
+  {"name": "Nagelstärker", "price": 3.50 },
+  {"name": "Nagelknipser", "price": 2.00},
+  {"name": "Nagelfeile", "price": 7.00}
+]
