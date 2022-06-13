@@ -49,7 +49,8 @@
 
     .container {
         max-width: 600px;
-        margin: 80px auto;
+
+
     }
 
     .item {
@@ -119,6 +120,18 @@
             color: $color-grey;
             margin-bottom: 4px;
         }
+    }
+
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 20vw;
+
+    }
+    img {
+        margin: 3vh 0 10vh 0;
     }
 </style>
 

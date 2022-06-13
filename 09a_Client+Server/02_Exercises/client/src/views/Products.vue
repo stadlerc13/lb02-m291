@@ -1,14 +1,14 @@
 <template>
-  <div>
-      <h2>Products</h2>
+  <div class="boxe">
+      <h2>Unsere Produkte</h2>
       <table>
         <thead>
         <tr>
-          <th>Name</th>
+          <th>Produktname</th>
           <td>&nbsp;&nbsp;&nbsp;</td>
-          <th>Price</th>
+          <th>Preis</th>
           <th>&nbsp;</th>
-          <th>Discount</th>
+          <th>Hinzufügen</th>
           <th>&nbsp;</th>
         </tr>
         </thead>
@@ -18,6 +18,7 @@
           <td>{{ product.name }}</td>
           <td>&nbsp;&nbsp;&nbsp;</td>
           <td>{{ product.price.toFixed(2) }}</td>
+          <td>{{ product.waehrung}}</td>
           <td>&nbsp;&nbsp;&nbsp;</td>
           <td>
             <b-button variant="success"  @click="addToCart(product)">+</b-button>
@@ -52,3 +53,20 @@ export default {
 }
 </script>
 
+<style>
+  * { background-color: #faf3f2;
+  }
+  .boxe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 20vw 0 35vw;
+    width: 25vw;
+
+  }
+  img {
+    margin: 3vh 0 10vh 0;
+  }
+
+</style>

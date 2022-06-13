@@ -1,17 +1,18 @@
 <template>
     <div>
-        <h2>Cart</h2>
+        <h2>Warenkorb</h2>
         <table>
             <thead>
             <tr>
-                <th>Name</th>
-                <th>Quantity</th>
+                <th>Produktname</th>
+                <th>Anzahl</th>
             </tr>
             </thead>
             <tbody>
             <tr v-for="(product, idx) in cart" :key="idx">
                 <td>{{ product.name }}</td>
                 <td>{{ product.quantity }}</td>
+                <td>{{ product.waehrung }}</td>
             </tr>
             </tbody>
         </table>
@@ -26,3 +27,7 @@
         computed: mapState(['cart'])
     }
 </script>
+
+<style>
+
+</style>
