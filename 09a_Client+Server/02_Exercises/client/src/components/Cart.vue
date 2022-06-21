@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h2>Warenkorb</h2>
         <table>
             <thead>
+            <h2>Warenkorb</h2>
             <tr>
                 <th>Produktname</th>
                 <th>Anzahl</th>
@@ -12,7 +12,7 @@
             <tr v-for="(product, idx) in cart" :key="idx">
                 <td>{{ product.name }}</td>
                 <td>{{ product.quantity }}</td>
-                <td>{{ product.waehrung }}</td>
+
             </tr>
             </tbody>
         </table>
@@ -29,5 +29,7 @@
 </script>
 
 <style>
-
+    table {
+        margin: 5vh 0;
+    }
 </style>

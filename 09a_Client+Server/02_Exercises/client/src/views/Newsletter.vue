@@ -1,4 +1,5 @@
-<<template>
+<
+<template>
     <div class="container">
         <h2>Newsletter Anmeldung</h2>
         <div class="user-input">
@@ -7,7 +8,8 @@
                     v-model="input"
                     @keyup.enter="addItem"
                     ref="input"
-            /><button @click="addItem">Anmelden</button>
+            />
+            <button @click="addItem">Anmelden</button>
         </div>
 
         <ul v-if="shoppingList">
@@ -17,7 +19,7 @@
             </li>
         </ul>
 
-        <br />
+        <br/>
     </div>
 </template>
 
@@ -67,6 +69,7 @@
         display: flex;
         align-items: center;
         padding-bottom: 20px;
+
         input {
             width: 100%;
             padding: 10px 6px;
@@ -122,7 +125,7 @@
         }
     }
 
-    .box{
+    .box {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -130,6 +133,7 @@
         margin: 0 20vw;
 
     }
+
     img {
         margin: 3vh 0 10vh 0;
     }

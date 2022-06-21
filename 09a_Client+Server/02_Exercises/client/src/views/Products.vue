@@ -54,7 +54,8 @@ export default {
 </script>
 
 <style>
-  * { background-color: #faf3f2;
+  * {
+    background-color: #faf3f2;
   }
   .boxe {
     display: flex;

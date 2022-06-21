@@ -1,7 +1,7 @@
 <template>
 
     <div id="app">
-      <div id="logo"><a href="/"> <img class="logo" alt="BZZ logo" src="./assets/logo.png"></a></div>
+        <div id="logo"><a href="/"> <img class="logo" alt="BZZ logo" src="./assets/logo.png"></a></div>
         <div id="nav">
             <router-link class="nav" to="/products">Shop</router-link>
             |
@@ -13,11 +13,12 @@
             <!--  Template für Paratmeter <router-link :to="{ name: 'about', params: { user: 'of Hans Muster'}}">About</router-link> -->
         </div>
         <router-view/>
-       <!-- <MyNavigation/> -->
+        <!-- <MyNavigation/> -->
     </div>
 </template>
 <style>
-    * { background-color: #faf3f2;
+    * {
+        background-color: #faf3f2;
     }
 
     #nav {
@@ -31,11 +32,12 @@
 
 
     }
+
     #logo {
         margin: 0 5vw;
     }
 
-    .nav{
+    .nav {
         color: #5a141d;
         font-size: large;
     }
